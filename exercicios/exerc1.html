@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Calculadora </title>
+</head>
+<body>
+
+	<form action="formulario.php" method="post">
+		<label>Calculadora Simples</label><br><br>
+		<input type="text" name="num1">
+		<select name="op">
+		  <option value="soma"> + </option>
+		  <option value="sub"> - </option>
+		  <option value="div"> / </option>
+		  <option value="mult"> * </option>
+		</select>
+		<input type="text" name="num2">
+		<!--<br><input type="radio" name="op" value="soma"> +
+		<br><input type="radio" name="op" value="sub"> -
+		<br><input type="radio" name="op" value="div"> /
+		<br><input type="radio" name="op" value="mult"> *-->
+		<br><input type="submit" value="Calcular">
+		<input type="checkbox" name="exerc" value="2" checked style="visibility: hidden;">
+	</form>
+
+</body>
+</html>
